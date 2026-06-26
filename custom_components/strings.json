@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "DuerOS Smart Home Configuration",
+        "description": "Configure OAuth2 credentials for DuerOS integration.\n\n**Client ID** and **Client Secret** should match what you configured on the DuerOS open platform.",
+        "data": {
+          "client_id": "Client ID",
+          "client_secret": "Client Secret"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid client ID or client secret."
+    }
+  }
+}

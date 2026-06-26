@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "小度智能家居配置",
+        "description": "配置 DuerOS 接入的 OAuth2 凭据。\n\n**Client ID** 和 **Client Secret** 需要与你在 DuerOS 开放平台配置的一致。",
+        "data": {
+          "client_id": "Client ID",
+          "client_secret": "Client Secret"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Client ID 或 Client Secret 无效"
+    }
+  }
+}
